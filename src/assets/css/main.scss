@@ -1,0 +1,15 @@
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+
+// Customize the grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 992px,
+  lg: 1300px,
+  xl: 1400px,
+  xxl: 1600px
+);
+
+// Import Bootstrap's grid system and other styles
+@import '../../../node_modules/bootstrap/scss/bootstrap';
